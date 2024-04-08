@@ -1,0 +1,43 @@
+.form {
+  justify-content: space-evenly;
+  height: 20rem;
+  overflow: scroll;
+}
+
+.control {
+  display: flex;
+  flex-direction: column;
+  justify-content: start;
+  margin: 1rem;
+  gap: 5px;
+}
+
+.control label {
+  font-size: 1.2rem;
+}
+
+.control input {
+  height: 3rem;
+  border-radius: 20px;
+  padding: 1rem;
+  font-size: 20px;
+  border: 1px solid rgb(67, 67, 67);
+}
+
+.actions {
+  display: flex;
+  justify-content: end;
+  gap: 10px;
+}
+
+.actions button {
+  padding: 0.5rem 1.5rem;
+  background-color: rgb(147, 0, 0);
+  color: white;
+  border-radius: 2rem;
+  border: none;
+}
+
+.error {
+  color: rgb(172, 0, 0);
+}
